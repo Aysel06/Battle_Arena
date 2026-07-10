@@ -1,8 +1,8 @@
 class Character {
   constructor(name, health, power) {
-    this.name = name;
-    this.health = health;
-    this.power = power;
+    this._name = name;
+    this._health = health;
+    this._power = power;
   }
 
   get name() {
